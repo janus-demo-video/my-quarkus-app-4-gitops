@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app-4
+  namespace: my-quarkus-app-4-dev
+  cluster: .apps.cluster-96gs6.96gs6.sandbox2905.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-demo-video/my-quarkus-app-4
+  org: janus-demo-video
+  name: my-quarkus-app-4
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app-4-dev/my-quarkus-app-4
+  tag: latest
